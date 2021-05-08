@@ -4930,7 +4930,6 @@ rc@^1.2.7:
 
 "react-dom@link:../node_modules/react-dom":
   version "0.0.0"
-  uid ""
 
 react-fast-compare@^2.0.1:
   version "2.0.4"
@@ -4964,7 +4963,6 @@ react-lifecycles-compat@^3.0.4:
 
 "react@link:../node_modules/react":
   version "0.0.0"
-  uid ""
 
 read-pkg-up@^4.0.0:
   version "4.0.0"
@@ -6039,9 +6037,9 @@ typescript@^3.4.3:
   integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
-  integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@3.4.x:
   version "3.4.10"
@@ -6060,8 +6058,10 @@ uglify-js@^3.1.4:
     source-map "~0.6.1"
 
 "unform@link:..":
-  version "0.0.0"
-  uid ""
+  version "1.2.4"
+  dependencies:
+    dot-object "^1.7.1"
+    npm-run-all "^4.1.5"
 
 union-value@^1.0.0:
   version "1.0.0"
